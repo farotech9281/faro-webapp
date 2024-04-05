@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+.title {
+    position: absolute;
+}
+
+.content {
+    display: flex;
+    justify-content:space-around;
+}
+
+.unbounded {
+    font-family: "unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
