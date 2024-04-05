@@ -1,16 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
-.title {
-    position: absolute;
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+.unbounded {
+  font-family: "unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+    --faro-color: #ec4b27
+}
+
+.title>p {
+    color: var(--faro-color);
 }
 
 .content {
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
 }
 
-.unbounded {
-    font-family: "unbounded", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+.navBar {
+    width: 80vw;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+ul li {
+    padding: 0px 15px;
+    margin: 0px 15px;
 }
