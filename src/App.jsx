@@ -1,14 +1,19 @@
-import Top from './top/top.jsx';
+import Top from "./top/top.jsx";
+import WhoWeAre from "./main/whoWeAre.jsx";
+import Logo from "./main/logo.jsx";
 
-import './App.css'
+import "./App.css";
 
-function App() {
-
+const App = () => {
   return (
     <>
       <Top></Top>
+      <div className="mainContent">
+        <Logo></Logo>
+        <WhoWeAre></WhoWeAre>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
